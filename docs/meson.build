@@ -35,7 +35,7 @@ custom_target(
     'intrusive_list.adoc',
     'iterator.adoc',
     'latched.adoc',
-    'memory.adoc',
+    'meta.adoc',
     'numeric.adoc',
     'optional.adoc',
     'panic.adoc',
