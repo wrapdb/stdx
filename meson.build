@@ -112,6 +112,7 @@ pkgconfig = import(
 )
 if pkgconfig.found()
   pkgconfig.generate(
+    filebase: 'stdx',
     name: 'C++ Standard Extensions and Polyfill',
     description: 'A header-only C++ library that polyfills the standard library.',
     url: 'https://intel.github.io/cpp-std-extensions/',
